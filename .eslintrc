@@ -1,1 +1,1 @@
-{ "rules": { "quotes": "error" } }
+{ "rules": { "quotes": "error", "no-extra-semi": 1 } }
