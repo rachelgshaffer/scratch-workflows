@@ -1,0 +1,11 @@
+{
+  "name": "scratch-workflows",
+  "version": "0.0.0",
+  "description": "Scratch Workflows",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "6.6.0"
+  }
+}
