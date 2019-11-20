@@ -1,1 +1,29 @@
-{ "rules": { "quotes": "error", "no-extra-semi": 1 } }
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true // Allows support of JSX, but use of React plugin is required to support React semantics
+    }
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "node",
+    "promise",
+    "react",
+    "@typescript-eslint"
+  ],
+  "env": {
+    "amd": true,
+    "browser": true,
+    "jquery": true,
+    "node": true,
+    "es6": true, // This enables ES6 global variables AND ES6 syntax
+    "worker": true
+  },
+  "rules": {
+    "quotes": 1,
+    "no-extra-semi": 1,
+    "@typescript-eslint/no-explicit-any": 1
+  }
+}
