@@ -13,4 +13,5 @@ jobs:
       run: echo Hello, world!
     - name: myeslint
       uses: "stefanoeb/eslint-action@master"
-      args: "**.js **.ts"
+      with:
+        args: "**.js **.ts"
